@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KeyNe's</title>
+    <link rel="icon" href="images/restaurant-logo-favicon.png" type="image/png" sizes="16x16">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://keynesicm.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <link rel="stylesheet" type="text/css" href="aos-master/dist/aos.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="service.html">
+  </head>
+  <body ng-app="restaurant" ng-strict-di>
+
+    <!-- Fixed position loading indicator -->
+    <loading class="loading-indicator"></loading>
+
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            
+
+            <div class="navbar-brand">
+              <a href="index.html"><h1>KeyNe's</h1></a>
+              <p>
+              
+              <span>Innovative Concept Maker</span>
+              </p>
+            </div>
+
+            <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li id="navHomeButton" class="visible-xs">
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span> Home</a>
+              </li>
+              <li id="navMenuButton" ui-sref-active="active">
+                <a href="service.html">
+                  <span class="glyphicon glyphicon-briefcase"></span><br class="hidden-xs"> Service</a>
+              </li>
+              <li>
+                <a href="work.html">
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About work</a>
+              </li>
+              <li>
+                <a href="gallery.html">
+                  <span class="glyphicon glyphicon-picture"></span><br class="hidden-xs">Gallery</a>
+              </li>
+              <li id="phone" class="hidden-xs">
+                <a href="tel:851185-5872"">
+                  <span>+91-8511855872</span></a><div>Contact us</div>
+              </li>
+            </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+      </nav><!-- #header-nav -->
+    </header>
+   <div id="call-btn" class="visible-xs">
+      <a class="btn" href="tel:851185-5872"">
+        <span class="glyphicon glyphicon-earphone"></span>
+        8511855872
+      </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">Contact us</div>
+
+<!-- main content -->
+<div class="service" data-aos="fade-zoomout" >
+<h2>SERVICE</h2>
+<img src="photos/research.jpg" width="100%" data-aos="fade-right" >
+<section>Research</section>
+</div>
+<div id="reasearch" data-aos="fade-left">
+  <p>KeyNe's offers comprehensive Product Research Services that identifies crucial market issues that help business prepare for successful product design and development.We support companies through every stage of product design & development process with insights that enable businesses to evolve ideas, customer demands and market need.We evaluate new product concepts that enable businesses to eliminate unpromising ideas and focus on lucrative product concepts.</p>
+</div>
+<div id="development" data-aos="fade-down" >
+  <section>Development</section>
+  <p>KeyNe's is a full fledged product design and development company. We deliver solutions to your design, manufacturing and support challenges. Our product design and development services span the entire product development lifecycle from concept design, preliminary design to detailed design and value engineering.</p>
+
+</div>
+<div id="manufacture" data-aos="fade-down" >
+  <div id="m1" >Manufacture</div>
+  <p>KeyNe's offers exceptional end to end services from product conceptualization, product development to manufacturing and service.
+All services are linked together through a comprehensive process and we guarantee the highest level in product quality reliability and durability.</p>
+
+</div>
+<div id="package" data-aos="fade-down" >
+  <div id="m2" >packaging</div>
+  <p>Our product packaging design services play a vital role in enhancing your customer awareness and building a memorable brand image and ultimately in increasing sales.
+Whether a business is considering how to package a new or existing product, KeyNe's can provide expert help with specialized package design and adaption services.</p>
+
+</div>
+<div id="market" data-aos="fade-down" >
+  <div id="m3" >marketing</div>
+  <p>Our company provide great marketing opportunity for all products. we have different marketing strategy for different products. A great production deserves great branding.</p>
+
+</div>
+
+<div id="innovation"data-aos="fade-right" ><p>Innovation</p></div>
+     <img src="photos/dna.JPEG" alt="innovation is our dna" class="responsive" width="600" height="400" data-aos="fade-left" >
+    <div id="de" data-aos="fade-right" ><p>Design + Engineering</p></div>
+    <img src="photos/de.JPEG" alt="design + engineering" class="responsive" width="600" height="400" data-aos="fade-left" >
+    <div id="manufacturing" data-aos="fade-right" ><p>Manufacturing</p></div>
+    <img src="photos/manufacturing.JPEG" alt="manufacturing" class="responsive" width="600" height="400" data-aos="fade-left" >
+    <div id="packaging" data-aos="fade-right" ><p>Packaging</p></div>
+    <img src="photos/packaging.JPEG" alt="manufacturing" class="responsive" width="600" height="400" data-aos="fade-left" >
+    <div id="marketing" data-aos="fade-right" ><p>Marketing</p></div>
+    <img src="photos/marketing.JPEG" alt="manufacturing" class="responsive" width="600" height="400" data-aos="fade-left" >
+
+
+   <div id="contact">
+  <p>For more updates follow us on!</p>
+</div>
+
+
+
+
+<!-- footer -->
+    <footer id="footer" class="fixed-bottom">
+
+    <div class="footer-top">
+
+      <div class="container">
+
+        <div class="row  justify-content-center" data-aos="fade-down" >
+          
+        </div>
+
+        <div class="social-links">
+          <a href="https://twitter.com/keynesicm" class="twiter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/keynes_icm" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/keyur-patel-687796a4/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      
+      <div class="credits">
+        Developed by : <strong> Nency Patel </strong></br>
+        <strong>nencyvpatel3010@gmail.com</strong></div>
+      </div>
+    </div>
+  </footer>
+
+
+  
+
+    <script type="text/javascript" href="aos-master/dist/aos.js"></script>
+    
+    <script type="text/javascript" href="jquery-2.1.4.min.js"></script>
+    <script>
+       
+        AOS.init({});
+    
+    
+    </script>
+</body>
+</html>
